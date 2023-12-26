@@ -24,6 +24,7 @@ Install MySQL Server on your machine. You can download it from [MySQL Downloads]
 Install the required Python library using the following command:
 ```bash
 pip install mysql-connector-python
+```
 4. Set Up MySQL Database
 Create a new MySQL database for the project.
 Update the database connection details in the Python script (employee_management.py) with the correct host, username, password, and database name.
