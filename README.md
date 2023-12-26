@@ -25,26 +25,24 @@ Install the required Python library using the following command:
 ```bash
 pip install mysql-connector-python
 ```
-4. Set Up MySQL Database
+### 4. Set Up MySQL Database
 Create a new MySQL database for the project.
 Update the database connection details in the Python script (employee_management.py) with the correct host, username, password, and database name.
 Usage
 Open a terminal and navigate to the project directory.
 Run the Python script:
-bash
-Copy code
+```bash
 python employee_management.py
+```
 Follow the on-screen instructions to interact with the Employee Management System.
 Project Structure
-employee_management.py: Main Python script containing the code for the Employee Management System.
-README.md: Documentation file providing information about the project.
-Contribution
+`employee_management.py`: Main Python script containing the code for the Employee Management System.
+`README.md`: Documentation file providing information about the project.
+# Contribution
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
 Fork the repository.
-Create a new branch: git checkout -b feature/your-feature-name
-Commit your changes: git commit -m 'Add some feature'
-Push to the branch: git push origin feature/your-feature-name
+Create a new branch: `git checkout -b feature/your-feature-name`
+Commit your changes: `git commit -m 'Add some feature'`
+Push to the branch: `git push origin feature/your-feature-name`
 Submit a pull request.
-License
-This project is licensed under the MIT License.
